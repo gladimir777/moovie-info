@@ -1,0 +1,64 @@
+.header-wraper {
+  padding-top: 50px;
+  .header-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    .logo {
+      background: url("../../images/pngfuel.com.png");
+      background-size: 150px 150px;
+      background-repeat: no-repeat;
+      background-position: left;
+      height: 100px;
+      //  border: 1px solid black;
+      flex: 1;
+    }
+
+    .form-wraper {
+      // border: 1px solid black;
+      display: flex;
+      align-items: stretch;
+      align-items: flex-end;
+      input[type="text"] {
+        width: 300px;
+        padding: 10px;
+        outline: none;
+        background-color: #f1f1f1;
+        border: 1px solid #f1f1f1;
+        font-size: 17px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .btn {
+        border: none;
+        background-color: black;
+        color: #fff;
+        padding: 15px 30px 12px 30px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        outline: none;
+      }
+    }
+    .login-container {
+      // border: 1px solid black;
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+      align-self: flex-end;
+
+      .phone {
+        display: flex;
+        align-items: center;
+      }
+      button {
+        border: none;
+        background-color: #fcae61;
+        padding: 10px 40px 10px 40px;
+        margin-left: 10px;
+        font-size: 17px;
+        color: #fff;
+      }
+    }
+  }
+}
