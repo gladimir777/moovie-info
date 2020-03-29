@@ -26,6 +26,9 @@
       font-size: 20px;
       font-family: "Baloo 2", cursive;
       outline: none;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }

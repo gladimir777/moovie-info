@@ -40,6 +40,9 @@
         font-family: "Baloo 2", cursive;
         font-size: 17px;
         outline: none;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
     .login-container {
