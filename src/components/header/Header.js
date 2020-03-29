@@ -4,21 +4,14 @@ import "./header.scss";
 
 function Header(props) {
   return (
-    <div className="header-wraper">
-      <div className="header-container">
-        <div className="logo"></div>
-        <div className="form-wraper">
-          <div className="form-container">
-            <input type="text" />
-            <button className="btn">GO</button>
-          </div>
-        </div>
-        <div className="login-container">
-          <div className="phone"> (+000) 123 345 653</div>
-          <div>
-            <button>Login</button>
-          </div>
-        </div>
+    <div className="top-header">
+      <div className="logo">SquareSpace</div>
+      <div className="title">
+        <div>Sponsored by SquareSpace</div>
+        <div> Get a domain and create a web site with SquareSpace</div>
+      </div>
+      <div className="trial">
+        <button className="btn-start">Start a free trial</button>
       </div>
     </div>
   );
