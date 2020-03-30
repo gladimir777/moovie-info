@@ -1,5 +1,22 @@
-.nav-container {
-  height: 50px;
-  margin-top: 10px;
-  border: 1px solid black;
+.nav-wraper {
+  //height: 50px;
+  margin-top: 40px;
+  // border: 1px solid black;
+  .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    padding: none;
+
+    a {
+      text-decoration: none;
+      padding: 15px 60px 15px 60px;
+      background: #ff8d1b;
+      border-right: dotted 1px #fff;
+      color: #fff;
+      font-family: "Baloo 2", cursive;
+      text-transform: uppercase;
+    }
+  }
 }
